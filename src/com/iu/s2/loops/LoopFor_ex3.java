@@ -26,9 +26,6 @@ public class LoopFor_ex3 {
 					System.out.println("다시 입력해주세요.");
 					
 				}
-		
-		
-		
 		}
 		
 		System.out.println("은행을 방문하세요.");
