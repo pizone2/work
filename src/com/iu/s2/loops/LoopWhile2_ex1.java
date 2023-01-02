@@ -41,8 +41,10 @@ public class LoopWhile2_ex1 {
 			
 			if(id==id2 && pw==pw2) {
 				i=2000000;
+			}else {
+				System.out.println("로그인 실패");
 			}
-		}
+		} 
 		System.out.println("게임을 시작합니다.");
 		
 		int level = 1;
@@ -55,9 +57,15 @@ public class LoopWhile2_ex1 {
 			if(cho==1) {
 				System.out.println("몬스터 1마리를 죽였습니다.");
 				exe = exe+1;
+				System.out.println("몬스터를 총"+exe+"마리 죽였습니다.");
 				if(exe == level*3) {
 					level=level+1;
 					System.out.println("당신의 레벨은"+level+"입니다.");
+					System.out.println("축 레벨업!");
+//						if(level%5==0) {
+//							System.out.println(level+"랩 달성 축하금");
+//							gold = gold+level/5*1000;
+//						}
 					
 						if(exe==12) {
 							System.out.println("1000원지급합니다.");
